@@ -69,30 +69,11 @@ for k in range(len(binary_num_16)):
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-輸出結果:   
-PS C:\Users\bruce\vscode\code> & C:/Users/bruce/AppData/Local/Programs/Python/Python38/python.exe c:/Users/bruce/vscode/code/converter.py
-輸入一個十進位的數字: 234
-十進位: 234
-二進位: 11101010
-16進位: EA
+ 
+# 輸出結果:   
+# PS C:\Users\bruce\vscode\code> & C:/Users/bruce/AppData/Local/Programs/Python/Python38/python.exe c:/Users/bruce/vscode/code/converter.py
+# 輸入一個十進位的數字: 234
+# 十進位: 234
+# 二進位: 11101010
+# 16進位: EA
 

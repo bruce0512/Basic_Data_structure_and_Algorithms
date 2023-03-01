@@ -46,6 +46,14 @@ mod_num_16.append(num % (16**(1)))
 binary_num_16.append(mod_num_16[0] // (16**(0)))
 mod_num_16.append(mod_num_16[0] % (16**(0)))
 
+# 去除開頭的0
+
+for j in range(len(binary_num_16)):
+    if binary_num_16[0] == 0:
+        binary_num_16.pop(0)
+    else:
+        break
+
 # 將大於10的數字更換成字母
 
 for j in range(len(binary_num_16)):
@@ -56,6 +64,7 @@ print('')
 print('16進位: ', end='')
 for k in range(len(binary_num_16)):
     print(binary_num_16[k], end='')
+
     
     
     
